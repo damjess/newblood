@@ -394,11 +394,13 @@ a.tag_category_series {color:#ba66ba !important;}
 #site-title > a {
 	display: flex;
 	flex: wrap;
-	justify-content: center;
+	justify-content: left;
+	align-items: center;
 }
 
 #site-title img {
 	max-height: 75px;
+	padding-right: 10px;
 }
 
 @media only screen and (max-width: 600px) {
