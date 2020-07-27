@@ -111,7 +111,7 @@ class Page extends BasePage
         //if($this->heading==$site_name)$this->heading = '';
         //$title_link = "<h1><a href='".make_link($main_page)."'>$site_name</a>/$this->heading</h1>";
 
-        $nb_logo = "./New-Blood-White.png";
+        $nb_logo_url = $base_url."themes/newblood/New-Blood-White.png";
         // bzchan: prepare main title link
         $title_link = "<h1 id='site-title'>
             <a href='".make_link($main_page)."'>
