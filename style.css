@@ -393,7 +393,7 @@ a.tag_category_series {color:#ba66ba !important;}
 
 #site-title > a {
 	display: flex;
-	flex: wrap;
+	flex-wrap: wrap;
 	justify-content: left;
 	align-items: center;
 }
